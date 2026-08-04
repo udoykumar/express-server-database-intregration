@@ -9,18 +9,18 @@ const createUser = async (req: Request, res: Response) => {
   // console.log("result", result);
   res.status(201).json({
     message: "created post request",
-    data: result.rows[0],
+    data: result.rows,
   });
 };
 
 const getAllUser = async (req: Request, res: Response) => {
+  console.log(req.user);
   try {
-    const result = userService.getAllUsersFromDB();
-    console.log(result);
+    const result = await userService.getAllUsersFromDB();
     res.status(200).json({
       success: true,
       message: "Users retrieved successfully",
-      data: result,
+      data: result.rows,
     });
   } catch (error: any) {
     res.status(404).json({

@@ -8,7 +8,7 @@ const loginUserIntoDB = async (payload: {
   password: string;
 }) => {
   const { email, password } = payload;
-  //1. check if the user exist,
+  //   1. check if the user exist,
   //   2. compare the password,
   //   3.generate token
 
