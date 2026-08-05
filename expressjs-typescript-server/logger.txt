@@ -104,3 +104,59 @@ method => GET time=> 1785846189811 url => /api/users
 method => GET time=> 1785846236254 url => /api/users
 
 method => GET time=> 1785846317691 url => /api/users
+
+method => POST time=> 1785923938153 url => /api/users
+
+method => POST time=> 1785923947338 url => /api/users
+
+method => POST time=> 1785923956065 url => /api/users
+
+method => POST time=> 1785923961129 url => /api/users
+
+method => POST time=> 1785923997971 url => /api/users
+
+method => POST time=> 1785924014212 url => /api/users
+
+method => POST time=> 1785924258343 url => /api/users
+
+method => POST time=> 1785924273578 url => /api/users
+
+method => POST time=> 1785924364282 url => /api/users
+
+method => POST time=> 1785924374518 url => /api/users
+
+method => POST time=> 1785924545607 url => /api/users
+
+method => GET time=> 1785925641060 url => /api/users
+
+method => GET time=> 1785925721608 url => /api/auth/login
+
+method => GET time=> 1785925748394 url => /api/auth/login
+
+method => POST time=> 1785925947729 url => /api/auth/login
+
+method => POST time=> 1785926000290 url => /api/auth/login
+
+method => POST time=> 1785926036849 url => /api/auth/login
+
+method => GET time=> 1785926096297 url => /api/users
+
+method => GET time=> 1785926287534 url => /api/users
+
+method => POST time=> 1785926549624 url => /api/users
+
+method => POST time=> 1785926571907 url => /api/auth/login
+
+method => GET time=> 1785926594791 url => /api/users
+
+method => POST time=> 1785926701935 url => /api/users
+
+method => POST time=> 1785926716118 url => /api/auth/login
+
+method => GET time=> 1785926759613 url => /api/users
+
+method => POST time=> 1785929431631 url => /api/auth/login
+
+method => POST time=> 1785930154202 url => /api/auth/refresh-token
+
+method => POST time=> 1785931104493 url => /api/auth/refresh-token
