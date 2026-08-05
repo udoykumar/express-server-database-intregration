@@ -5,12 +5,9 @@ import { pool } from "../db";
 import type { Roles } from "../types";
 
 const auth = (...roles: Roles[]) => {
-  console.log(roles);
   return async (req: Request, res: Response, next: NextFunction) => {
     try {
       const token = req.headers.authorization;
-
-      console.log(token);
       if (!token) {
         res.status(401).json({
           success: false,

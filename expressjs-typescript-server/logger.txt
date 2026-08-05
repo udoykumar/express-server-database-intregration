@@ -160,3 +160,9 @@ method => POST time=> 1785929431631 url => /api/auth/login
 method => POST time=> 1785930154202 url => /api/auth/refresh-token
 
 method => POST time=> 1785931104493 url => /api/auth/refresh-token
+
+method => GET time=> 1785944825366 url => /
+
+method => GET time=> 1785944826295 url => /favicon.ico
+
+method => GET time=> 1785944831446 url => /api/users
